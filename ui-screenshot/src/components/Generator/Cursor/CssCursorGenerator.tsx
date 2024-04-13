@@ -1,10 +1,10 @@
 "use client";
 import { useState } from "react";
-import PreviewBox from "../PreviewBox";
+import PreviewBox from "../Box/PreviewBox";
 import { hexToRgb, rgbToHex } from "@/utils/HexToRGB";
 import { copyToClipboard } from "@/utils/CopyToClipBoard";
 
-export const BoxShadowGenerator = () => {
+export const CssCursorGenerator = () => {
   const [horizontalLength, setHorizontalLength] = useState(10);
   const [verticalLength, setVerticalLength] = useState(10);
   const [blurRadius, setBlurRadius] = useState(5);

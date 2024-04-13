@@ -1,4 +1,4 @@
-import { BoxShadowGenerator } from "../../components/box-shadow/BoxShadowGenerator";
+import { BoxShadowGenerator } from "@/components/Generator/Box/BoxShadowGenerator";
 
 export default function BoxShadowPage() {
   return (
