@@ -1,7 +1,5 @@
 "use client";
 import { useState } from "react";
-import PreviewBox from "../Box/PreviewBox";
-import { hexToRgb, rgbToHex } from "@/utils/HexToRGB";
 import { copyToClipboard } from "@/utils/CopyToClipBoard";
 import PreviewBorder from "./PreviewBorder";
 
