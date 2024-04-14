@@ -53,7 +53,7 @@ This project is a web application that captures the content of a webpage at regu
   - Spread Radius controller
   - Shadow Color picker
   - Shadow Opacity controller
-- CSS cusror Generator
+- CSS cursor Generator
   - Cursor List options
 - Text shadow Generator
   - Horizontal Length controller
