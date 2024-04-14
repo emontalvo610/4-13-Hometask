@@ -61,6 +61,7 @@ export const CssCursorGenerator = () => {
             <div className="border border-grey-30 p-4">
               {CURSOR_OPTIONS.map((cur: string) => (
                 <div
+                  key={cur}
                   className="py-[10px] px-[15px] border-2 border-b border-t border-gray-600 hover:bg-[#ffe1b3] text-red-600"
                   onMouseEnter={() => setCursor(cur)}
                 >
