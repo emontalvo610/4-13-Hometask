@@ -14,7 +14,7 @@ This project is a web application that captures the content of a webpage at regu
 ![Border Radius Generator](/screenshots/Annotation%202024-04-14%20031433.jpg "Border Radius Generator")
 ![Box Shadow Generator](/screenshots/Annotation%202024-04-14%20031549.jpg "Box Shadow Generator")
 ![Text Shadow Generator](/screenshots/Annotation%202024-04-14%20031559.jpg "Text Shadow Generator")
-
+![CSS Cursor Generator](/screenshots/Annotation%202024-04-14%20034131.jpg "CSS Cursor Generator")
 
 ## Requirements
 
