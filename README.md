@@ -44,7 +44,7 @@ This project is a web application that captures the content of a webpage at regu
   - Bottom Right Radius controller
   - Border Style Width controller
   - Border Style option
-  - Backgroud color picker
+  - Background color picker
   - Border color picker
 - Box shadow Generator
   - Horizontal Length controller
