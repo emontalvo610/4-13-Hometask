@@ -1,0 +1,9 @@
+# dependencies
+/node_modules
+/captured_images
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
