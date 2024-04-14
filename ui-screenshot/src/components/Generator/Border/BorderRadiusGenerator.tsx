@@ -35,8 +35,8 @@ export const BorderRadiusGenerator = () => {
   const toggleInset = () => setIsGenerateBG(!isGenerateBG);
 
   return (
-    <div className="flex gap-4">
-      <div className="flex-grow-0 flex-shrink-0 w-1/3">
+    <div className="lg:flex gap-4">
+      <div className=" w-full mb-4 lg:flex-grow-0 flex-shrink-0 lg:w-1/3">
         <div className="border-b-4 border-l border-r border-gray-300">
           <h4 className="text-18px bg-[#158cba] text-white py-[10px] px-[15px]">
             Border Radius Options
@@ -247,7 +247,7 @@ export const BorderRadiusGenerator = () => {
           </div>
         </div>
       </div>
-      <div className="flex-grow-0 flex-shrink-0 w-2/3 flex items-center justify-center flex-col">
+      <div className="w-full lg:flex-grow-0 flex-shrink-0 lg:w-2/3 flex items-center justify-center flex-col">
         <PreviewBorder
           borderRadius={borderRadius}
           border={border}

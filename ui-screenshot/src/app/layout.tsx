@@ -17,8 +17,6 @@ export default function RootLayout({
       if (containerRef.current) {
         html2canvas(containerRef.current).then((canvas) => {
           const imageData = canvas.toDataURL("image/png");
-          console.log({ imageData });
-          console.log("canvas calling");
           axios
             .post("/capture", { imageData })
             .then(() => {

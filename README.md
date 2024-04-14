@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a web application that captures the content of a webpage at regular intervals and sends the captured data to a Node.js backend server for storage on the local computer.
+This project is a web application that captures the content of a webpage which simulates the css properties including border-radius, box-shadow, css cursor and text-shadow at regular intervals and sends the captured data to a Node.js backend server for storage on the local computer.
 
 ## Features
 
@@ -94,7 +94,7 @@ This project is a web application that captures the content of a webpage at regu
 ## How to use this program
 
 ### Prerequisites
-- Node.js and npm installed on your machine
+- Node.js 18.20 or a higher version and npm 9.6.5 or a higher version should be installed on your machine.
 
 ### Installation
 
