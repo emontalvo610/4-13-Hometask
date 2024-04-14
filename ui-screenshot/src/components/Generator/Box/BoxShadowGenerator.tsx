@@ -31,9 +31,9 @@ export const BoxShadowGenerator = () => {
   const toggleInset = () => setIsInset(!isInset);
 
   return (
-    <div className="flex gap-4">
-      <div className="flex-grow-0 flex-shrink-0 w-1/3">
-        <div className="border-b-4 border-l border-r border-gray-300">
+    <div className="lg:flex gap-4">
+      <div className="w-full mb-4 lg:flex-grow-0 flex-shrink-0 lg:w-1/3">
+        <div className=":border-b-4 border-l border-r border-gray-300">
           <h4 className="text-18px bg-[#158cba] text-white py-[10px] px-[15px]">
             Box Shadow Options
           </h4>
@@ -181,7 +181,7 @@ export const BoxShadowGenerator = () => {
           </div>
         </div>
       </div>
-      <div className="flex-grow-0 flex-shrink-0 w-2/3 flex items-center justify-center flex-col">
+      <div className="w-full lg:flex-grow-0 flex-shrink-0 lg:w-2/3 flex items-center justify-center flex-col">
         <PreviewBox boxShadow={boxShadow} />
         <div className="w-[700px] max-w-full mt-[100px] mb-[10px] bg-[#eee] p-[15px] text-[20px] rounded-8 min-h-[60px] ">
           <div>box-shadow: {boxShadow};</div>
