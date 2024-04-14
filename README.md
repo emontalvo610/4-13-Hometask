@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a web application that captures the content of a webpage which simulates the css properties including border-radius, box-shadow, css cursor and text-shadow at regular intervals and sends the captured data to a Node.js backend server for storage on the local computer.
+This project is a web application that captures the content of a webpage which simulates the css properties including border-radius, box-shadow, css cursor and text-shadow at regular intervals and sends the captured data to a Node.js backend server for storage on the local computer
 
 ## Features
 
