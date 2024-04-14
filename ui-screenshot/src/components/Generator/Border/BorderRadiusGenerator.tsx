@@ -36,7 +36,7 @@ export const BorderRadiusGenerator = () => {
 
   return (
     <div className="lg:flex gap-4">
-      <div className=" w-full mb-4 lg:flex-grow-0 flex-shrink-0 lg:w-1/3">
+      <div className="w-full mb-4 lg:flex-grow-0 flex-shrink-0 lg:w-1/3">
         <div className="border-b-4 border-l border-r border-gray-300">
           <h4 className="text-18px bg-[#158cba] text-white py-[10px] px-[15px]">
             Border Radius Options

@@ -51,8 +51,8 @@ export const CssCursorGenerator = () => {
   };
 
   return (
-    <div className="flex gap-4" style={{ cursor }}>
-      <div className="flex-grow-0 flex-shrink-0 w-1/3">
+    <div className="lg:flex gap-4" style={{ cursor }}>
+      <div className="w-full lg:flex-grow-0 flex-shrink-0 lg:w-1/3">
         <div className="border-b-4 border-l border-r border-gray-300">
           <h4 className="text-18px bg-[#158cba] text-white py-[10px] px-[15px]">
             Cursor Options
@@ -72,7 +72,7 @@ export const CssCursorGenerator = () => {
           </div>
         </div>
       </div>
-      <div className="flex-grow-0 flex-shrink-0 w-2/3 flex items-center justify-start flex-col">
+      <div className="w-full lg:flex-grow-0 flex-shrink-0 lg:w-2/3 flex items-center justify-start flex-col">
         <div className="w-[700px] max-w-full mt-[100px] mb-[10px] bg-[#eee] p-[15px] text-[20px] rounded-8 min-h-[60px] ">
           <div>cursor: {cursor};</div>
         </div>
